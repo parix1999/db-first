@@ -20,3 +20,4 @@ km                  MEDIUMINT/UNSIGNED      NOTNULL                     INDEX
 consumi             VARCHAR(50)             NULL
 da_0a_100           FLOAT(I,D)              NULL
 peso                DOUBLE(I,D)             NULL
+cerchi              VARCHAR(200)            NULL 
