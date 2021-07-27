@@ -17,3 +17,5 @@ trazione            VARCHAR(255)            NULL
 costo               DECIMAL(I, D)           NOTNULL
 numero_telaio       VARCHAR(17)             NOTNULL - UNIQUE            INDEX
 km                  MEDIUMINT/UNSIGNED      NOTNULL                     INDEX
+consumi             VARCHAR(50)             NULL
+da_0a_100           FLOAT(I,D)              NULL
