@@ -1,0 +1,19 @@
+Gestionale di un concessionario: 
+
+Column              Type                    Atributes                   Index
+
+id                  BIGINT                  AUTO-INCREMENT-NOTULL       PRIMARYKEY
+modello             VARCHAR(255)            NOTNULL                     INDEX
+colore              VARCHAR(255)            NULL
+carburante          VARCHAR(255)            NOTNULL                     INDEX
+anno_produzione     YEAR                    NULL     
+posti               TINYINT                 NULL 
+n_porte             TINYINT                 NULL
+motore              VARCHAR(255)            NOTNULL
+potenza             VARCHAR(255)            NULL
+cilindrata          VARCHAR(255)            NULL
+cambio              VARCHAR(255)            NULL
+trazione            VARCHAR(255)            NULL               
+costo               DECIMAL(I, D)           NOTNULL
+numero_telaio       VARCHAR(17)             NOTNULL - UNIQUE            INDEX
+km                  MEDIUMINT/UNSIGNED      NOTNULL                     INDEX
