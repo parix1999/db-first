@@ -4,7 +4,7 @@ Column              Type                    Atributes                   Index
 
 id                  BIGINT                  AUTO-INCREMENT-NOTULL       PRIMARYKEY
 modello             VARCHAR(255)            NOTNULL                     INDEX
-colore              VARCHAR(255)            NULL
+colore              VARCHAR(80)             NULL
 carburante          VARCHAR(255)            NOTNULL                     INDEX
 anno_produzione     YEAR                    NULL     
 posti               TINYINT                 NULL 
